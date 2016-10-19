@@ -1,4 +1,3 @@
-
 package com.irvingmichael;
 
 import javax.xml.bind.annotation.*;
@@ -26,9 +25,7 @@ import javax.xml.bind.annotation.*;
  */
 @XmlRootElement(name="dwml")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "dwmlType", propOrder = {
-    "latLonList"
-})
+@XmlType(name = "dwmlType", propOrder = { "latLonList" })
 public class DwmlType {
 
     @XmlElement(required = true)

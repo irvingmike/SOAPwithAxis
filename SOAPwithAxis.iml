@@ -10,6 +10,7 @@
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
@@ -33,5 +34,7 @@
     <orderEntry type="library" scope="TEST" name="Maven:junit:junit:4.12.FINAL" level="project" />
     <orderEntry type="library" name="JAX-WS-Apache Axis" level="project" />
     <orderEntry type="library" name="junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12.FINAL" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
   </component>
 </module>
